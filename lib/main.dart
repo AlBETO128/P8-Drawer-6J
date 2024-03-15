@@ -3,10 +3,10 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-void main() => runApp(const MiDrawerBarrios());
+void main() => runApp(const MiDrawerCarbajal());
 
-class MiDrawerBarrios extends StatelessWidget {
-  const MiDrawerBarrios({Key? key}) : super(key: key);
+class MiDrawerCarbajal extends StatelessWidget {
+  const MiDrawerCarbajal({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class MiDrawerBarrios extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Josue Barrios"),
+          title: const Text("Alberto Carbajal Vazquez - 0449"),
           centerTitle: true,
           backgroundColor: Colors.cyan,
           actions: [
@@ -35,18 +35,18 @@ class MiDrawerBarrios extends StatelessWidget {
           child: ListView(
             children: [
               UserAccountsDrawerHeader(
-                accountName: Text("Panfilo",
+                accountName: Text("Abarrotes",
                     style: TextStyle(color: Color(0xff000000), fontSize: 15)),
-                accountEmail: Text("Panfilo465@Sabritas.com",
+                accountEmail: Text("Carbajal449@Abarrotes.com",
                     style: TextStyle(color: Color(0xff000000), fontSize: 15)),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(
-                      "https://sabritas.com.mx/img/logo_sabritas.png"),
+                      "https://raw.githubusercontent.com/AlBETO128/img_FlutterFlow_IOS/main/avatar4.jpg"),
                 ),
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: NetworkImage(
-                      "https://mitsloanreview.mx/wp-content/uploads/2022/09/la-historia-de-sabritas.jpg",
+                      "https://raw.githubusercontent.com/AlBETO128/img_FlutterFlow_IOS/main/avatar2.jpeg",
                     ),
                     fit: BoxFit.fill,
                   ),
@@ -55,7 +55,7 @@ class MiDrawerBarrios extends StatelessWidget {
                   CircleAvatar(
                     backgroundColor: Colors.white,
                     backgroundImage: NetworkImage(
-                        "https://http2.mlstatic.com/D_NQ_NP_943314-MLM54172040659_032023-O.webp"),
+                        "https://raw.githubusercontent.com/AlBETO128/img_FlutterFlow_IOS/main/avatar3.jpg"),
                   ),
                   CircleAvatar(
                     backgroundColor: Colors.white,
